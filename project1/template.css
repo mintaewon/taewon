@@ -1,0 +1,151 @@
+body, h2, h3, p, .nav-main {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, p {
+    font-size: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    
+}
+
+.background {
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 2%;
+    padding-bottom: 20%;
+}
+
+
+.navdiv{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    vertical-align: middle;
+}
+
+.nav-main{
+    font-size: 5px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+}
+
+.nav-main li :hover {
+    color: #A76D57;
+}
+
+
+.nav-name {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 1%;
+}
+
+.nav-main li{
+    padding: 5px 6px;
+    text-align: center;
+    font-size: 2.8em;
+}
+
+.nav-main li:nth-child(9){
+    padding-left: 3em;
+    padding-right: 1em;
+    font-size: 4em;
+    padding-top: 0;
+}
+
+.nav-main li:nth-child(10){
+    font-size: 4em;
+    padding-top: 0;
+}
+
+/* nav  */
+
+.main-box {
+    /* background-color: orange; */
+
+    width: 50%;
+    height: 30%;
+    padding-top: 16%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.SubTitle{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.Title{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.minititle {
+    font-size: 0.5em;
+}
+
+.StartBtn{
+    background-color: #9a8877;
+    color: white;
+    border: 2px;
+    border-color: saddlebrown;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 3;
+    box-shadow: #9a8877;
+}
+
+
+/* main */
+
+.article {
+    display: flex;
+    align-items: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 5%;
+}
+
+.Art-Item {
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.Art-Item i {
+    font-size: 1.5em;
+}
+
+.Art-Item h4 {
+    margin: 0;
+    padding-bottom: 10%;
+}
+
+.Art-Item p {
+    font-size: 0.5em;
+}
+
+.Art-Item hr {
+    color: #9F8A7D;
+}
+
+.Art-Item i h4 hr:hover {
+    color: #A76D57;
+}
