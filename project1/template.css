@@ -116,17 +116,24 @@ li {
 /* main */
 
 .article {
+    height: 200px;
+}
+
+.article-bar {
     display: flex;
+    margin: 0;
+    padding: 0;
     align-items: center;
-    padding-left: 18%;
-    padding-right: 18%;
-    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
 }
 
 .Art-Item {
+    width: 300px;
     text-align: center;
-    padding-right: 16px;
     padding-left: 16px;
+    padding-right: 16px;
 }
 
 .Art-Item i {
@@ -146,6 +153,38 @@ li {
     color: #9F8A7D;
 }
 
-.Art-Item i h4 hr:hover {
+.Art-Item:hover h4, .Art-Item:hover i, .Art-Item:hover hr {
     color: #A76D57;
+}
+
+/* page1 */
+
+.pagetwo {
+    background-color: #fbfaf8;
+}
+
+.pagetwo-main {
+    background-color: orange;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.pagetwo-main h2 {
+    font-size: 2em;
+}
+
+.pagetwo-main h3 {
+    font-size: 1.5em;
+}
+
+.pagetwo-img {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.pagetwo-bottombar {
+    height: 150px;
+    background-color: #493125
 }
