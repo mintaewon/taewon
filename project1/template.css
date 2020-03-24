@@ -164,8 +164,7 @@ li {
 }
 
 .pagetwo-main {
-    background-color: orange;
-    width: 50%;
+    width: 60%;
     margin: auto;
     text-align: center;
     padding-top: 10%;
@@ -173,18 +172,55 @@ li {
 
 .pagetwo-main h2 {
     font-size: 2em;
+    padding-bottom: 20px;
 }
 
-.pagetwo-main h3 {
-    font-size: 1.5em;
+.pagetwo-main p {
+    font-size: 1.2em;
 }
 
 .pagetwo-img {
     text-align: center;
     padding-top: 5%;
+    margin-bottom: -4px;
 }
 
 .pagetwo-bottombar {
     height: 150px;
     background-color: #493125
+}
+
+.pagetwo-bottombar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pagetwo-bottombar-text h2::before {
+    content: "Waxom";
+    color: wheat;
+}
+
+.pagetwo-bottombar-text h2{
+    font-size: 1.7em;
+    color: white;
+}
+
+.pagetwo-bottombar-text p {
+    font-size: 1.2em;
+    color: #908481;
+}
+
+.purchebtn {
+    background-color: #9a8877;
+    color: white;
+    border: 2px;
+    border-color: saddlebrown;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 30px;
+    
 }
