@@ -167,7 +167,7 @@ li {
     width: 60%;
     margin: auto;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .pagetwo-main h2 {
@@ -224,3 +224,95 @@ li {
     padding: 20px 30px;
     
 }
+
+/* pagetwo */
+
+.pagethree-header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.pagethree-header h2 {
+    font-size: 1.7em;
+    padding-bottom: 16px;
+}
+
+.pagethree-header p {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}
+
+.pagethree-header-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.pagethree-header-btn li {
+    padding: 6px 20px;
+    border-width: 0.6px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #A18884;
+    margin: 0 10px;
+    color: #A18884;
+    font-weight: 500;
+}
+
+.pagethree-header-btn li:hover {
+    color: white;
+    background-color: #A18884;
+}
+
+.pagethree-main {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 3%;
+    text-align: center;
+    
+}
+
+.photobox {
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.photobox h3, p {
+    text-align: left;
+    padding-left: 30px;
+    
+}
+
+.pagethree-main-photo1 {
+    margin-bottom: 40px;
+}
+
+.pagethree-bottom {
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.pagethree-bottom-btn {
+    background-color: #9a8877;
+    color: white;
+    border: 2px;
+    border-color: saddlebrown;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.photoimg {
+    width: 270px;
+    padding-bottom: 10px;
+}
+
