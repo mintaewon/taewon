@@ -75,7 +75,7 @@ li {
 /* nav  */
 
 .main-box {
-    background-color: orange;
+    /* background-color: orange; */
     width: 60%;
     padding-top: 16%;
     margin: auto;
@@ -268,7 +268,7 @@ li {
     background-color: #A18884;
 }
 
-.pagethree-main {
+.mainphoto {
     width: 85%;
     max-width: 1000px;
     margin: auto;
@@ -381,4 +381,59 @@ li {
 .pagefour-footerbar ul li h2{
     font-size: 3em;
     padding-bottom: 20px;
+}
+
+.pagefour-footerbar ul li i,
+.pagefour-footerbar ul li span {
+    color: #c7b299;
+}
+
+.pagefour-footerbar ul li h2 {
+    color: white;
+    font-weight: 400;
+}
+
+/* pagefour */
+
+.pagefive-title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pagefive-title h2 {
+    font-size: 1.7em;
+    padding-bottom: 20px;
+}
+
+.pagefive-title p {
+    font-size: 1.1em;
+}
+
+.pagefive-main-img h3 {
+    font-size: 0.9em;
+}
+
+.pagefive-main-img p{
+    font-size: 0.7em;
+    padding-top: 10px;
+}
+
+.pagesix {
+    width: 100%;
+    background-image: url(img/partners_bg.jpg);
+    background-position: center;
+    height: 500px;
+}
+
+
+
+.pagesix-item ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+.pagesix-item ul li {
+    text-align: center;
 }
