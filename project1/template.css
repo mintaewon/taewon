@@ -395,18 +395,18 @@ li {
 
 /* pagefour */
 
-.pagefive-title {
-    text-align: center;
-    padding-top: 100px;
-}
-
-.pagefive-title h2 {
+.pagefive-main h2 {
     font-size: 1.7em;
     padding-bottom: 20px;
 }
 
-.pagefive-title p {
+.pagefive-main p {
     font-size: 1.1em;
+    padding-bottom: 50px;
+}
+
+.pagefive-main {
+    padding-bottom: 150px;
 }
 
 .pagefive-main-img h3 {
@@ -418,22 +418,27 @@ li {
     padding-top: 10px;
 }
 
+
+/* pagefive */
+
+
 .pagesix {
     width: 100%;
     background-image: url(img/partners_bg.jpg);
     background-position: center;
     height: 500px;
+    display: table;
 }
 
+.pagesix-item {
+    display: table-cell;
+    vertical-align: middle;
+}
 
-
-.pagesix-item ul {
-    width: 100%;
-    display: inline-flex;
+.pagesix ul {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    
-}
-
-.pagesix-item ul li {
-    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
