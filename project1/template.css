@@ -270,7 +270,7 @@ li {
 
 .mainphoto {
     width: 85%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     padding-top: 3%;
     text-align: center;
@@ -439,6 +439,40 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.pageseven-top {
+    background-color: #191919;
+}
+
+.pageseven-bottom {
+    background-color: #111111;
+}
+
+.pageseven-top-main p {
+    color: #555555;
+}
+
+/* .pageseven-top-container {
+    display: inline-block;
+} */
+
+.pageseven-top-main {
+    width: 270px;
+    display: inline-block;
+     vertical-align: top;
+}
+
+.pageseven-top-container {
+    text-align: left;
+}
+
+.pageseven-top-main h2 {
+    color: white;
+}
+
+.pageseven-top-main p {
+    font-size: 0.7em;
 }
