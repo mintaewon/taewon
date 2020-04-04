@@ -18,10 +18,10 @@ li {
 }
 
 .background {
-    background-image: url(img/2.jpg);
+    background-image: url(img/mainslide_01.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 2%;
+    /* padding-top: 2%; */
     padding-bottom: 20%;
 }
 
@@ -47,20 +47,19 @@ li {
     color: #A76D57;
 }
 
-
-.nav-name {
-    color: white;
-    font-size: 30px;
-    padding-bottom: 1%;
-}
-
 .nav-main li{
     padding: 5px 6px;
     text-align: center;
     font-size: 2.8em;
 }
 
-.nav-main li:nth-child(9){
+.nave-icon li{
+    float: left;
+    color: white;
+    padding-left: 28px;
+}
+
+/* .nav-main li:nth-child(9){
     padding-left: 3em;
     padding-right: 1em;
     font-size: 4em;
@@ -70,7 +69,7 @@ li {
 .nav-main li:nth-child(10){
     font-size: 4em;
     padding-top: 0;
-}
+} */
 
 /* nav  */
 
@@ -242,17 +241,13 @@ li {
     padding-bottom: 20px;
 }
 
-.pagethree-header-btn {
-    width: 85%;
-    
-    justify-content: center;
+
+
+.pagethree-header ul {
+    text-align: center;
 }
 
-.pagethree-header-btn ul {
-    display: flex;
-}
-
-.pagethree-header-btn li {
+.pagethree-header ul li {
     padding: 6px 20px;
     border-width: 0.6px;
     border-style: solid;
@@ -261,9 +256,10 @@ li {
     margin: 0 10px;
     color: #A18884;
     font-weight: 500;
+    display: inline-block;
 }
 
-.pagethree-header-btn li:hover {
+.pagethree-header ul li:hover {
     color: white;
     background-color: #A18884;
 }
@@ -301,6 +297,7 @@ li {
 .pagethree-bottom {
     text-align: center;
     padding-top: 5%;
+    padding-bottom: 5%;
     
 }
 
@@ -333,6 +330,7 @@ li {
 .pagefour-img {
     display: inline-block;
     padding-left: 10%;
+    margin-bottom: -4px;
 }
 
 .pagefour-text {
@@ -443,6 +441,8 @@ li {
     padding-right: 15%;
 }
 
+/* pagesix */
+
 .pageseven-top {
     background-color: #191919;
 }
@@ -455,9 +455,6 @@ li {
     color: #555555;
 }
 
-/* .pageseven-top-container {
-    display: inline-block;
-} */
 
 .pageseven-top-main {
     width: 270px;
@@ -469,10 +466,82 @@ li {
     text-align: left;
 }
 
-.pageseven-top-main h2 {
+.pageseven-top-main ul li {
+    border-bottom: 1px solid #252525;
+    padding-bottom: 15px;
+}
+
+.pageseven-hover ul li:hover .post-date{
     color: white;
 }
 
-.pageseven-top-main p {
-    font-size: 0.7em;
+.pageseven-hover ul li:hover p{
+    color: #c7b299;
 }
+
+.pageseven-top-main ul li:last-child {
+    border-bottom: 0;
+}
+
+.pageseven-top-main a {
+    color: #d1d1d1;
+    font-size: 14px;
+}
+
+.pageseven-top-main span {
+    color: #363636;
+    font-size: 12px;
+}
+
+.pageseven-top-main h2 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.pageseven-top-main li p span {
+    color: #00bff3;
+}
+
+.pageseven-top-main p {
+    font-size: 14px;
+}
+
+.pageseven-bottom-box {
+    padding: 0;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageseven-bottom-left p {
+    color: #555555;
+    font-size: 13px;
+}
+
+.pageseven-bottom-left p span {
+    color: #959595;
+}
+
+.pageseven-bottom-right p {
+    color: #555555;
+    font-size: 13px;
+}
+
+.pageseven-bottom-right p span {
+    color: #959595;
+}
+
+.pageseven-bottom-left p a:hover{
+    color: #c7b299;
+}
+
+/* pageseven */
+
+
+/* RESPONSIVE */
+/* 
+@media screen and (max-width:768px){
+
+} */
